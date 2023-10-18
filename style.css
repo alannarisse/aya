@@ -1,0 +1,72 @@
+* {box-sizing: border-box;}
+body {
+  margin:0;
+  background-color: black;
+  color: white;
+}
+
+.logo-img {
+  width:80px;
+  border-radius: 50%;
+}
+nav {
+ padding:20px 0;
+}
+
+nav ul { 
+  list-style:none;
+  display:flex;
+  justify-content:space-between;
+  margin:0;
+  padding:0;
+}
+nav li {
+flex:1;
+text-align:center;
+}
+nav li a {
+  color: white;
+}
+nav li a:hover {
+  color:rgb(238, 91, 5);
+}
+.homepage header {
+  background-color: brown;
+  height:90vh;
+  width:100vw;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.homepage h1 {
+  color: #ff006b;
+  position:relative;
+  font-size:90px;
+}
+.red-circle {
+  width:500px;
+  height:500px;
+  border:1px solid #ff006b;
+  border-radius:50%;
+  position:absolute;
+  top:-200px;
+  left:-50px;
+}
+
+/* add class="blackbilepage" to black bile page */
+.blackbilepage header {
+  background-color: rgb(25, 90, 18);
+  height:100vh;
+  width:100vw;
+}
+.home-rule {
+  background-color: #ff006b;
+  height:10px;
+  border:0;
+  margin-top:-80px;
+}
+
+.snake-icon-div {
+  text-align:center;
+
+}
